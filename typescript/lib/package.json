@@ -1,0 +1,22 @@
+{
+  "name": "pareto-execute-sandboxed",
+  "version": "0.1.0",
+  "author": "Corno",
+  "license": "Apache-2.0",
+  "description": "A library providing resources for the Pareto programming Language",
+  "type": "module",
+  "exports": {
+    "./*": {
+      "types": "./dist/*.d.ts",
+      "default": "./dist/*.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "pareto-core": "^0.1.0",
+    "pareto-fountain-pen": "^0.4.0",
+    "pareto-resources": "^0.2.157"
+  }
+}
