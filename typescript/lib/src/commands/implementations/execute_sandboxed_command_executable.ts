@@ -1,7 +1,7 @@
 import * as p_ from 'pareto-core/implementation/command'
 
 import type * as command_interfaces from "../interfaces.js"
-import type * as command_interfaces_resources from "pareto-resources/commands/interfaces"
+import type * as command_interfaces_resources from "pareto-execute-unrestricted-api/commands/interfaces"
 
 export const $$: p_.Command_Implementation<
     command_interfaces.command_executable,
@@ -10,7 +10,7 @@ export const $$: p_.Command_Implementation<
     },
     null,
     {
-        'unrestricted': command_interfaces_resources.execute_unrestricted.command_executable,
+        'unrestricted': command_interfaces_resources.command_executable,
     }
 >
  = p_.command(

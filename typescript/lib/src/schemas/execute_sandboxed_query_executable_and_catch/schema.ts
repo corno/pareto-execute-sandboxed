@@ -1,8 +1,8 @@
 
 import * as p_di from 'pareto-core/interface/schema'
 
-import * as i_imports_path from "pareto-resources/schemas/fs_unrestricted_path/schema"
-import * as i_imports_terminal_output from "pareto-resources/schemas/terminal_output/schema"
+import * as i_imports_path from "pareto-execute-unrestricted-api/schemas/fs_unrestricted_path/schema"
+import * as i_imports_terminal_output from "pareto-execute-unrestricted-api/schemas/terminal_output/schema"
 
 export namespace Parameters_ {
     
