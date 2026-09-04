@@ -15,12 +15,14 @@ export const $$: p_.Query_Implementation<
         'unrestricted': query_interfaces_resources.query_executable,
     }
 > = p_.query(
-    ($d, $s, $q) => $q.unrestricted(
-        {
-            'program': $s.program,
-            'args': $d.args,
-            'working directory': $d['working directory']
-        },
-        ($) => $,
+    (e, $s, $q, $d) => e.query(
+        ($d) => $q.unrestricted(
+            {
+                'program': $s.program,
+                'args': $d.args,
+                'working directory': $d['working directory']
+            },
+            ($) => $,
+        )
     )
 )
