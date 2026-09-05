@@ -1,4 +1,4 @@
-import * as p_ from 'pareto-core/implementation/query'
+import * as p_ from 'pareto-core/query'
 
 import type * as query_interfaces from "../interfaces.js"
 import type * as query_interfaces_resources from "pareto-execute-unrestricted-api/queries/interfaces"

@@ -1,4 +1,4 @@
-import * as p_ from 'pareto-core/interface/command_interface'
+import * as p_ from 'pareto-core/command_interface'
 
 import type * as s_execute_sandboxed_command_command from "../schemas/execute_sandboxed_command_executable/schema.js"
 import type * as s_execute_sandboxed_smelly_command_command from "../schemas/execute_sandboxed_smelly_command_executable/schema.js"
